@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { useGLTF, useAnimations } from "@react-three/drei";
-import FoxScene from "./Fox.glb";
+import FoxScene from "./fox.glb";
 import { useFrame } from "@react-three/fiber";
 
 const Fox = ({ currentAnimation, ...props }) => {
